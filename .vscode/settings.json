@@ -1,0 +1,29 @@
+{
+    "editor.formatOnPaste": false, // From your pasting fix
+    "explorer.confirmPasteNative": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "ipynb.pasteImagesAsAttachments.enabled": false,
+    "editor.pasteAs.enabled": true,
+    "editor.pasteAs.preferences": [],
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.snippetSuggestions": "top", // Prioritize snippets
+    "files.associations": {
+        "*.js": "javascriptreact", // Treat .js as React
+        "*.jsx": "javascriptreact" // Ensure .jsx is React
+    },
+    "editor.suggest.showSnippets": true, // Explicitly enable snippet suggestions
+    "editor.suggest.snippetsPreventQuickSuggestions": false, // Allow quick snippet suggestions
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    }, // Enable quick suggestions for code
+    "editor.suggestOnTriggerCharacters": true, // Show suggestions on trigger (e.g., typing 'r')
+    "editor.acceptSuggestionOnEnter": "on", // Accept suggestions with Enter
+    "javascript.suggest.completeFunctionCalls": true, // Enhance JS suggestions
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode", // Optional: If using Prettier
+        "editor.suggest.showSnippets": true // Ensure snippets for React
+    }
+}
