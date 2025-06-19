@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+html {
+  background-color: #f3f4f6; /* gray-100 */
+  color: #111827; /* gray-900 */
+}
+
+html[data-theme='dark'] {
+  background-color: #111827; /* gray-900 */
+  color: #f3f4f6; /* gray-100 */
+}
